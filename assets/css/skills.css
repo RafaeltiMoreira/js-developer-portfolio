@@ -22,6 +22,10 @@
   margin: 0 .5rem;
 }
 
+.skills .tools ul li svg {
+  color: var(--text-color);
+}
+
 .skills .personal ul {
   display: flex;
   flex-direction: row;
