@@ -16,16 +16,16 @@
         "logo": "https://raw.githubusercontent.com/RafaeltiMoreira/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
-        "name": "Docker",
-        "logo": "https://raw.githubusercontent.com/RafaeltiMoreira/js-developer-portfolio/main/data/imgs/docker.png"
-      },
-      {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/RafaeltiMoreira/js-developer-portfolio/main/data/imgs/react.png"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/RafaeltiMoreira/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "HTML5",
+        "logo": "https://raw.githubusercontent.com/RafaeltiMoreira/js-developer-portfolio/main/data/imgs/html.png"
+      },
+      {
+        "name": "CSS3",
+        "logo": "https://raw.githubusercontent.com/RafaeltiMoreira/js-developer-portfolio/main/data/imgs/css.png"
       },
       {
         "name": "Postgresql",
