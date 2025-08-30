@@ -59,7 +59,7 @@ body {
   height: 26px;
   width: 50px;
   gap: 8px;
-  transform: scale(1);
+  transform: scale(0.9);
 }
 
 .label .ball {
