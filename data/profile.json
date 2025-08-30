@@ -22,11 +22,11 @@
       },
       {
         "name": "HTML5",
-        "logo": "https://raw.githubusercontent.com/RafaeltiMoreira/js-developer-portfolio/main/data/imgs/html.png"
+        "logo": "https://raw.githubusercontent.com/RafaeltiMoreira/js-developer-portfolio/main/data/imgs/html.svg"
       },
       {
         "name": "CSS3",
-        "logo": "https://raw.githubusercontent.com/RafaeltiMoreira/js-developer-portfolio/main/data/imgs/css.png"
+        "logo": "https://raw.githubusercontent.com/RafaeltiMoreira/js-developer-portfolio/main/data/imgs/css.svg"
       },
       {
         "name": "Postgresql",
