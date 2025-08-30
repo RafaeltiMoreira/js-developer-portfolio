@@ -21,13 +21,14 @@
 body.dark-blue {
   --bg-color: #00082f;
   --text-color: #ffffff;
-  background-image: url(./assets/img/background-dark.svg);
+  background-image: url(.github/background-dark.svg);
+  background-image: url(/);
 }
 
 body {
   background: var(--bg-color);
   color: var(--text-color);
-  background-image: url(./assets/img/background-light-dio.svg);
+  background-image: url(.github/background-light-dio.svg);
   background-repeat: no-repeat;
   background-position: left center;
   background-size: cover;
