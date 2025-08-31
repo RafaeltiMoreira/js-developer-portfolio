@@ -3,7 +3,7 @@
 O objetivo é desenvolver uma página de portfólio totalmente dinâmica, consumindo dados de um arquivo **JSON** para exibir informações profissionais, experiências, habilidades e projetos.  
 
 # 🎯 Deploy do Desafio
-🔗 [Clique aqui para acessar a página](https://SEU-LINK-AQUI.github.io/)
+🔗 [Clique aqui para acessar a página](https://rafaeltimoreira.github.io/js-developer-portfolio/)
 
 ![Preview da Página](.github/preview.png)
 
@@ -58,7 +58,7 @@ Uma página responsiva e dinâmica, que sirva como **vitrine profissional** para
 
 ## 🔗 Links de Referência
 - [Plataforma DIO](https://web.dio.me/)  
-- [Deploy GitHub Pages](https://pages.github.com/)  
+- [Deploy GitHub Pages](https://rafaeltimoreira.github.io/js-developer-portfolio/)  
 
 ## 👨‍💻 Autor
 - Desenvolvido por [Rafael Moreira](https://github.com/RafaeltiMoreira)  
