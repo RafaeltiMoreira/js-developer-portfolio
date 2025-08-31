@@ -58,4 +58,9 @@
     max-height: 40px;
     margin: 0 0.3rem;
   }
+
+  .skills .tools ul li svg {
+    max-width: 40px;
+    max-height: 40px;
+  }
 }
