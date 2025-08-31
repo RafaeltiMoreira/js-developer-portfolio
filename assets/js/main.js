@@ -27,9 +27,36 @@ function updateSoftSkills(profileData) {
   softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
 }
 
+// function updateHardSkills(profileData) {
+//   const hardSkills = document.getElementById('profile.skills.hardSkills')
+//   hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
+// }
 function updateHardSkills(profileData) {
   const hardSkills = document.getElementById('profile.skills.hardSkills')
-  hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
+  hardSkills.innerHTML = '' // remover
+
+  profileData.skills.hardSkills.forEach(skill => {
+    const li = document.createElement('li')
+
+    if (skill.logo.endsWith('.svg')) {
+      fetch(skill.logo)
+        .then(response => response.text())
+        .then(svgData => {
+          li.innerHTML = svgData
+          const svg = li.querySelector('svg')
+          if (svg) {
+            svg.setAttribute('width', '48')
+            svg.setAttribute('height', '48')
+            svg.setAttribute('title', skill.name)
+            svg.style.fill = 'currentColor'
+          }
+        })
+    } else {
+      li.innerHTML = `<img src="${skill.logo}" alt="${skill.name}" title="${skill.name}" width="48" height="48">`
+    }
+
+    hardSkills.appendChild(li)
+  })
 }
 
 function updateLanguages(profileData) {
@@ -37,11 +64,9 @@ function updateLanguages(profileData) {
   languages.innerHTML = profileData.languages.map(language => `
     <li>
     <svg class="dio-languages" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="18.2696" height="3.53518" rx="1.76759"
-              transform="matrix(0.68265 -0.730745 0.662011 0.749494 5.18848 13.3506)" fill="currentColor" />
-            <rect width="10.6331" height="3.54922" rx="1.77461"
-              transform="matrix(0.712617 0.701553 -0.630515 0.776177 2.23828 5.71191)" fill="currentColor" />
-          </svg>
+        <rect width="18.2696" height="3.53518" rx="1.76759" transform="matrix(0.68265 -0.730745 0.662011 0.749494 5.18848 13.3506)" fill="currentColor" />
+            <rect width="10.6331" height="3.54922" rx="1.77461" transform="matrix(0.712617 0.701553 -0.630515 0.776177 2.23828 5.71191)" fill="currentColor" />
+    </svg>
     ${language}
     </li>`).join('')
 }
