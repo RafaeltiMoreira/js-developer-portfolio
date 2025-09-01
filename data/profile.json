@@ -52,12 +52,12 @@
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RafaeltiMoreira",
+      "url": "https://pokedex-api-dio.netlify.app/",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RafaeltiMoreira",
+      "url": "https://portfolio-frontend-dio.netlify.app/",
       "github": true
     }
   ],
