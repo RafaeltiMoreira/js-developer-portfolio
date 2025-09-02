@@ -11,6 +11,13 @@ footer img {
   max-width: 100px;
 }
 
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 .dio-logo {
   width: 200px;
   height: 97px;
