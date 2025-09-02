@@ -5,7 +5,7 @@ O objetivo é desenvolver uma página de portfólio totalmente dinâmica, consum
 # 🎯 Deploy do Desafio
 🔗 [Clique aqui para acessar a página](https://rafaeltimoreira.github.io/js-developer-portfolio/)
 
-![Preview da Página](.github/preview.png)
+![Preview da Página](.github/preview3.png)
 
 # 🗂️ Estrutura do Projeto
 ```
