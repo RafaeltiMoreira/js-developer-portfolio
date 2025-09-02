@@ -51,16 +51,17 @@
 @media only screen and (max-width: 425px) {
   .skills .tools ul {
     justify-content: center;
+    gap: 2px;
   }
 
   .skills .tools ul li img {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 38px;
+    max-height: 38px;
     margin: 0 0.3rem;
   }
 
   .skills .tools ul li svg {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 38px;
+    max-height: 38px;
   }
 }
