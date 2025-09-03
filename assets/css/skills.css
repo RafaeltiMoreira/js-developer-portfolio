@@ -56,6 +56,12 @@
     justify-content: center;
   }
 
+  .skills .personal ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
   .skills .tools ul li img {
     max-width: 38px;
     max-height: 38px;
