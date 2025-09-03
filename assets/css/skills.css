@@ -60,6 +60,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 5px;
   }
 
   .skills .tools ul li img {
@@ -75,6 +76,6 @@
   }
 
   .skills .personal ul li {
-    padding: .5rem
+    padding: 0 0.5rem
   }
 }
