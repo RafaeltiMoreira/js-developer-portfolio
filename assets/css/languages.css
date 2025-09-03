@@ -14,12 +14,12 @@
   flex-direction: row;
   align-items: center;
   padding-right: 1rem;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .dio-languages {
   color: var(--text-color);
   margin-right: 0.5rem;
-  width: 18px;
+  width: 14px;
   height: 14px;
 }
