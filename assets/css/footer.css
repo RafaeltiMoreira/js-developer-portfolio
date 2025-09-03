@@ -26,6 +26,10 @@ footer img {
 }
 
 @media only screen and (max-width: 425px) {
+  .footer__content {
+    flex-direction: column;
+  }
+  
   .dio-logo {
     max-width: 100px;
   }
