@@ -16,10 +16,17 @@
   gap: 2px;
 }
 
+.skills .tools ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .skills .tools ul li img {
   max-width: 48px;
   max-height: 48px;
   margin: 0 0.5rem;
+  object-fit: contain;
 }
 
 .skills .tools ul li svg {
@@ -27,6 +34,7 @@
   max-width: 48px;
   max-height: 48px;
   margin: 0 0.5rem;
+  object-fit: contain;
 }
 
 .skills .personal ul {
@@ -64,14 +72,14 @@
   }
 
   .skills .tools ul li img {
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 35px;
+    max-height: 35px;
     margin: 0 0.2rem;
   }
 
   .skills .tools ul li svg {
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 35px;
+    max-height: 35px;
     margin: 0 0.2rem;
   }
 
